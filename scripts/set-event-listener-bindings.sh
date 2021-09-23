@@ -11,8 +11,8 @@ set -u
 
 echo "If you do not set GIT_BRANCH_MQ_REPO and GIT_BRANCH_APP_REPO variables, by default those will be master"
 
-GIT_BRANCH_MQ_REPO=${GIT_BRANCH_MQ_REPO:-master}
-GIT_BRANCH_APP_REPO=${GIT_BRANCH_APP_REPO:-master}
+GIT_BRANCH_MQ_REPO=${GIT_BRANCH_QM1:-master}
+GIT_BRANCH_APP_REPO=${GIT_BRANCH_QM1:-master}
 
 echo "Setting the git user to ${GIT_USER}"
 echo "Setting the git branch to ${GIT_BRANCH_MQ_REPO}"
